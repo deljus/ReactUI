@@ -50,6 +50,7 @@ const MarvinEditor = ({
         switch (modal.typeAction) {
           case MODAL.CREATE_TASK:
             createTask({ data: data.cml });
+            console.log('hi');
             break;
           case MODAL.EDIT_TASK:
             editTask(data);
